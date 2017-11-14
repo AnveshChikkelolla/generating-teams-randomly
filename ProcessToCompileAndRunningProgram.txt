@@ -1,0 +1,48 @@
+Python 3.6.1 (v3.6.1:69c0db5, Mar 21 2017, 17:54:52) [MSC v.1900 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+ RESTART: C:/Users/Anvesh/Desktop/RandomTeamsGenerateUsingPython/randomTeamsGenerateProgram.py 
+Enter file name: input.json
+number of students are in your json file are  14
+Enter no of teams you want  4
+input file contents are 
+{
+"Student_1":{"name":"one","rollno":1},
+"Student_2":{"name":"two","rollno":2},
+"Student_3":{"name":"three","rollno":3},
+"Student_4":{"name":"four","rollno":4},
+"Student_5":{"name":"five","rollno":5},
+"Student_6":{"name":"six","rollno":6},
+"Student_7":{"name":"seven","rollno":7},
+"Student_8":{"name":"eight","rollno":8},
+"Student_9":{"name":"nine","rollno":9},
+"Student_10":{"name":"ten","rollno":10},
+"Student_11":{"name":"eleven","rollno":11},
+"Student_12":{"name":"twelve","rollno":12}
+"Student_13":{"name":"thirteen","rollno":13},
+"Student_14":{"name":"fourteen","rollno":14}
+}
+output file contents are 
+team 1 
+"Student_4":{"name":"four","rollno":4},
+"Student_5":{"name":"five","rollno":5},
+"Student_6":{"name":"six","rollno":6},
+"Student_14":{"name":"fourteen","rollno":14}
+
+team 2 
+"Student_13":{"name":"thirteen","rollno":13},
+"Student_1":{"name":"one","rollno":1},
+"Student_3":{"name":"three","rollno":3},
+"Student_9":{"name":"nine","rollno":9},
+
+team 3 
+"Student_7":{"name":"seven","rollno":7},
+"Student_11":{"name":"eleven","rollno":11},
+"Student_2":{"name":"two","rollno":2},
+
+team 4 
+"Student_8":{"name":"eight","rollno":8},
+"Student_10":{"name":"ten","rollno":10},
+"Student_12":{"name":"twelve","rollno":12}
+
+>>> 
